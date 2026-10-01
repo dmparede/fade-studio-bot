@@ -1,0 +1,20 @@
+# Secrets
+.env
+
+# Runtime data (customer info)
+data/bookings.json
+data/handoffs.json
+data/*.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

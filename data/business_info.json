@@ -1,0 +1,83 @@
+{
+  "name": "Fade Studio",
+  "tagline": "Sharp cuts. Clean fades. Zero rush.",
+  "address": "Rua das Flores 128, 4050-262 Porto, Portugal",
+  "phone": "+351 900 000 000",
+  "email": "hello@fadestudio.example",
+  "instagram": "@fadestudio.example",
+  "currency": "EUR",
+  "hours": {
+    "Monday": "Closed",
+    "Tuesday": "10:00 - 19:00",
+    "Wednesday": "10:00 - 19:00",
+    "Thursday": "10:00 - 20:00",
+    "Friday": "10:00 - 20:00",
+    "Saturday": "09:00 - 17:00",
+    "Sunday": "Closed"
+  },
+  "services": [
+    {
+      "id": "classic_cut",
+      "name": "Classic Haircut",
+      "price": 18,
+      "duration_min": 30,
+      "description": "Scissor or clipper cut, wash and styling."
+    },
+    {
+      "id": "skin_fade",
+      "name": "Skin Fade",
+      "price": 22,
+      "duration_min": 45,
+      "description": "Fade down to the skin, blended by hand, finished with styling."
+    },
+    {
+      "id": "beard_trim",
+      "name": "Beard Trim & Shape",
+      "price": 12,
+      "duration_min": 20,
+      "description": "Beard shaping with clippers and razor line-up."
+    },
+    {
+      "id": "hot_towel_shave",
+      "name": "Hot Towel Shave",
+      "price": 20,
+      "duration_min": 30,
+      "description": "Traditional straight-razor shave with hot towels and aftershave balm."
+    },
+    {
+      "id": "cut_and_beard",
+      "name": "Haircut + Beard Combo",
+      "price": 28,
+      "duration_min": 60,
+      "description": "Any haircut plus a full beard trim and shape."
+    },
+    {
+      "id": "kids_cut",
+      "name": "Kids Cut (under 12)",
+      "price": 12,
+      "duration_min": 25,
+      "description": "Haircut for children under 12."
+    }
+  ],
+  "policies": {
+    "booking": "Appointments are recommended. Booking requests through this bot are confirmed by the team.",
+    "walk_ins": "Walk-ins are welcome when a chair is free, but booked clients have priority.",
+    "cancellation": "Please cancel or reschedule at least 12 hours in advance.",
+    "late_arrival": "If you are more than 15 minutes late, we may need to reschedule.",
+    "payment": "We accept cash, card and MB WAY."
+  },
+  "faq": [
+    {
+      "question": "Do you have parking?",
+      "answer": "There is no private parking, but there is a public car park (Parque Trindade) about 5 minutes away on foot."
+    },
+    {
+      "question": "Do you sell hair products?",
+      "answer": "Yes, we sell pomades, clays, beard oils and shampoos at the front desk."
+    },
+    {
+      "question": "Do you offer gift cards?",
+      "answer": "Yes, gift cards are available in any amount from 15 EUR, in store only."
+    }
+  ]
+}
